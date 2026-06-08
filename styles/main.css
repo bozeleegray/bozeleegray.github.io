@@ -186,3 +186,35 @@ body {
 .dot {
   opacity: 0.5;
 }
+
+.about {
+  margin-top: clamp(3rem, 8vh, 5rem);
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.about-heading {
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--ice);
+  margin-bottom: 1rem;
+}
+
+.about-body {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.footer-link {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footer-link:hover {
+  color: var(--ice);
+}

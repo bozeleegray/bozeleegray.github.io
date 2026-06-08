@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boze Lee Gray — Polar Exploration & Arctic Science</title>
-    <meta
-      name="description"
-      content="Polar cave research, Greenland expeditions, and high-latitude GIS. A field-science portfolio built in Rust + WebAssembly."
-    />
-    <!-- wasm-opt disabled: prebuilt binaryen lags the rustc/LLVM opcode set -->
-    <link data-trunk rel="rust" data-wasm-opt="0" />
-    <link data-trunk rel="css" href="styles/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Spectral:wght@500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polar Caves — Boze Lee Gray</title>
+  <meta name="description" content="Arctic cave science, high-latitude fieldwork, and polar GIS by Boze Lee Gray." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <div class="aurora" aria-hidden="true"></div>
+
+  <div class="page">
+
+    <header class="hero">
+      <p class="eyebrow">Polar Caves Project</p>
+      <h1 class="title">Boze&nbsp;Lee&nbsp;Gray</h1>
+      <p class="lede">Arctic field scientist documenting glacier and carbonate cave systems across the high latitudes — from Greenland to Svalbard.</p>
+      <div class="cta-row">
+        <a href="#work" class="btn btn-primary">Explore the work</a>
+        <a href="mailto:boze.l@northeastern.edu" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </header>
+
+    <section id="work" class="grid" aria-label="Areas of work">
+      <article class="card">
+        <span class="card-icon" aria-hidden="true">❄️</span>
+        <h2 class="card-title">Polar Cave Research</h2>
+        <p class="card-blurb">Documenting glacier and carbonate cave systems across the high Arctic, with an active scientific expedition program in Greenland and Svalbard.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon" aria-hidden="true">🧭</span>
+        <h2 class="card-title">Field Expeditions</h2>
+        <p class="card-blurb">Permitted, science-driven fieldwork — from logistics and partnerships to on-ice survey and sample collection in remote high-latitude terrain.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon" aria-hidden="true">🗺️</span>
+        <h2 class="card-title">High-Latitude GIS</h2>
+        <p class="card-blurb">Arctic geology mapping, ship-path analysis, and cartographic design in QGIS for planning and communicating polar work.</p>
+      </article>
+    </section>
+
+    <section class="about" aria-label="About">
+      <h2 class="about-heading">About the Project</h2>
+      <p class="about-body">
+        The Polar Caves Project is an ongoing effort to survey, map, and characterize cave systems in some of Earth's most remote polar environments. Working at the intersection of glaciology, speleology, and geoscience, the project contributes new data on subglacial hydrology, ice dynamics, and carbonate geology in the high Arctic. Fieldwork is conducted under scientific permits in collaboration with international research partners.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <span>© 2024 Boze Lee Gray</span>
+      <span class="dot">·</span>
+      <span>Polar Caves Project</span>
+      <span class="dot">·</span>
+      <a href="mailto:boze.l@northeastern.edu" class="footer-link">boze.l@northeastern.edu</a>
+    </footer>
+
+  </div>
+
+</body>
 </html>
